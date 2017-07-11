@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include partials/template/head.ejs %>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css">
+
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="100">
+    <% include partials/template/header.ejs %>
+
+    <% include partials/content/index/about.ejs %>
+
+    <% include partials/content/index/events.ejs %>
+
+    <% include partials/content/index/music-gallery.ejs %>
+
+    <% include partials/template/footer.ejs %>
+
+    <% include partials/template/scripts.ejs %>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+
+    <script text/javascript src="js/index.js"></script>
+</body>
+</html>

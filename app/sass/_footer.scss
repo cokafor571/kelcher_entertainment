@@ -1,0 +1,83 @@
+//footer
+.footer {
+    background-color: #F8F8F8;
+    padding: 3em 0 0;
+
+    .row {
+        width: 100%;
+        margin: 0 auto;
+
+        @media (min-width: $query_large) {
+            width: 1150px;
+        }
+
+        .footer-row {
+            padding-bottom: 2em;
+            display: flex;
+            flex-direction: column;
+        
+            h6 {
+                margin-bottom: 2em;
+                font-weight: 700;
+                font-size: 1.05rem;
+            }
+
+            p {
+                font-size: 0.95rem;
+
+                span {
+                    padding: 0 .5em;
+                }
+            }
+
+            .social-media {
+                display: flex;
+                flex-wrap: wrap;
+
+                a {
+                    margin: 0 1em;
+                    font-size: 1.35rem;
+
+                    &:hover { 
+                        animation: rotate 0.5s linear both;
+                    }
+
+                    .fa-instagram {
+                        padding: .25em;
+
+                        &:hover {
+                            color: mediumvioletred; 
+                        }
+                    }
+
+                    .fa-facebook {
+                        padding: .25em;
+
+                        &:hover {
+                            color: #8b9dc3;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-border {
+        height: 10px;
+        background: white;
+    }
+
+    .footer-copyright {
+        padding: 1.5rem 1rem;
+
+        .copyright {
+            margin: auto;
+            font-size: 0.9rem;
+        }
+
+        .footer-nav {
+            font-size: 0.9rem;
+            text-align: right;
+        }
+    }
+}
